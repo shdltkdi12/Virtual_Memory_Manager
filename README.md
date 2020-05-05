@@ -11,11 +11,11 @@ Whenever a page fault happens, the program will obtain a new frame from a BACKIN
 It will read byte by byte to form a new frame.
 
 ## Requirements ##
-*gcc
-*bash
+* gcc
+* bash
 
 ## Usage ##
-' code()
+'code()
 make 
 ./vm_sim <name_of_input_file>
 //For more options or usage 
