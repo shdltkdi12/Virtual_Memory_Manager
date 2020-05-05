@@ -1,9 +1,9 @@
 # Virtual Memory Manager #
 ## Description ##
 A simple virtual memory manager that is responsible to 
-(1) load a file containing a list of logical addresses, 
-(2) translate logical addresses into physical addresses for a virtual address space of size 2^16 bytes
-(3) output the value of the byte stored at the translated physical address.
+1. load a file containing a list of logical addresses, 
+2. translate logical addresses into physical addresses for a virtual address space of size 2^16 bytes
+3. output the value of the byte stored at the translated physical address.
 This program uses a TLB, which is a table of 16 entries that acts like a cache for recently used physical addresses in the page table.
 Whenever a TLB fault happens, the program will continue its search with the page table.
 The program outputs information about TLB hits, TLB faults, page table hits, page table faults, along with the inputs and output in a file.
@@ -15,9 +15,9 @@ It will read byte by byte to form a new frame.
 * bash
 
 ## Usage ##
-'''
-> make 
+```
+make 
 ./vm_sim <name_of_input_file>
 //For more options or usage 
 ./vm_sim
-'''
+```
