@@ -16,7 +16,7 @@ It will read byte by byte to form a new frame.
 
 ## Usage ##
 '''
-make 
+> make 
 ./vm_sim <name_of_input_file>
 //For more options or usage 
 ./vm_sim
