@@ -1,5 +1,4 @@
 # Virtual Memory Manager #
-## Description ##
 A simple virtual memory manager that is responsible to 
 1. load a file containing a list of logical addresses, 
 2. translate logical addresses into physical addresses for a virtual address space of size 2^16 bytes
